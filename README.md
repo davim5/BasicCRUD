@@ -1,2 +1,6 @@
 # BasicCRUD
-CRUD para demonstração com firebase
+CRUD para demonstração com:
+* Node
+* Express
+* PostgresSQL
+* EJS
