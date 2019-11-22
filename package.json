@@ -1,0 +1,15 @@
+{
+  "name": "CrudBasico",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "firebase": "^7.4.0",
+    "nodemon": "^2.0.0",
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3"
+  }
+}

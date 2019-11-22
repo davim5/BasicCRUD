@@ -1,0 +1,27 @@
+<%- include ../layouts/header.ejs %>
+<div class="page-data">
+    <form method="post" action="/condominio/edit/<%=data[0].id%>">
+        <table cellpadding="11">
+            <tr>
+                <td class="label">Nome</td>
+                <td><input type="text" name="nome" value="<%=data[0].nome%>" required /></td>
+            </tr>
+            <tr>
+                <td class="label">Habitantes</td>
+                <td><input type="number" name="habitantes" value="<%=data[0].habitantes%>" required /></td>
+            </tr>
+            <tr>
+                <td class="label">Email</td>
+                <td><input type="text" value="<%=data[0].email%>" name="email" required /></td>
+            </tr>
+            <tr>
+                <td class="label"></td>
+                <td>
+                    <button type="submit">Salvar</button>
+                    <button type="button" onClick="cancelAdd()">Cancelar</button>
+                </td>
+            </tr>
+        </table>
+    </form> 
+</div>
+<%- include ../layouts/footer.ejs %>
